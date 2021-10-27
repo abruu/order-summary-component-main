@@ -1,0 +1,133 @@
+
+
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.continar{
+    margin-top: 5rem;
+}
+
+.main-card {
+   /* border: 1px solid black; */
+   margin: 0 auto;
+   height: 500px;
+   width: 420px;
+   border-radius: 20px;
+}
+
+.inner-image {
+    border-radius: 20px;
+    border-bottom-left-radius: 0px !important; 
+    border-bottom-right-radius: 0px !important; 
+    border-radius: 20px;
+    height: 220px;
+   width: 420px;
+    background-image: url('images/illustration-hero.svg');
+}
+
+.inner-continer{
+    background-color: #ffffff;
+    height: 31rem;
+    border-radius: 20px;
+    border-top-left-radius: 0px !important; 
+    border-top-right-radius: 0px !important; 
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 2.5rem;
+    color: hsl(223, 47%, 23%);
+}
+p{
+    text-align: center;
+    margin: 0 1.5rem;
+    line-height: 1.65rem;
+    font-size: 1.1rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.inner-text-continer{
+    padding: 0 2.5rem 3.1rem 2.5rem;
+}
+
+.inner-card{
+   
+    height: 5.5rem;
+ margin-top: 2.5rem; 
+ border-radius: 10px; 
+
+ background-color:hsl(225, 100%, 98%);
+
+ display: flex;
+ justify-content:space-around;
+align-items: center;
+}
+
+.inner-card-text{
+line-height: 23px;
+color: hsl(223, 47%, 23%);
+}
+
+.annual-plan{
+    font-size: 1.1rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.inner-text-continer a{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: hsl(245, 75%, 52%);
+    justify-self: end;
+    align-self: center;
+}
+
+.procced-button{
+    cursor: pointer;
+    margin-top: 2rem;
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1rem 0 !important;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white !important;
+    border-radius: 12px;
+    box-shadow: 0 18px 30px -7px rgb(197 189 245);
+}
+.procced-button:hover{
+    background-color: hsl(245, 83%, 68%);}
+
+
+    .cancel-button{
+        cursor: pointer;
+ margin-top: 2rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    
+    }
+
+    .cancel-button:hover{
+        color: hsl(223, 47%, 23%);
+    }
