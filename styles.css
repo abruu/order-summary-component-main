@@ -131,3 +131,8 @@ color: hsl(223, 47%, 23%);
     .cancel-button:hover{
         color: hsl(223, 47%, 23%);
     }
+    .btn{
+     
+        background-color: red !important;
+        color: red !important;
+    }
